@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS helpnumber;
+CREATE DATABASE helpnumber;
