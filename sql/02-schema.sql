@@ -34,7 +34,7 @@ CREATE TABLE phone_numbers (
 );
 
 CREATE TABLE phone_numbers_to_phone_numbers_categories (
-  phone_numbers_id BIGINT REFERENCES phone_numbers (id) NOT NULL,
-  phone_numbers_categories_name VARCHAR(100) REFERENCES phone_numbers_categories (name) NOT NULL,
-  CONSTRAINT UNIQUE_phone_numbers_to_phone_numbers_categories UNIQUE (phone_numbers_id, phone_numbers_categories_name)
+  phone_number_id BIGINT REFERENCES phone_numbers (id) NOT NULL,
+  phone_number_categories_name VARCHAR(100) REFERENCES phone_numbers_categories (name) NOT NULL,
+  CONSTRAINT UNIQUE_phone_numbers_to_phone_numbers_categories UNIQUE (phone_number_id, phone_number_categories_name)
 );
