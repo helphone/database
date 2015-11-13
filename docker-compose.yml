@@ -1,5 +1,4 @@
 database:
-  container_name: HelpNumberDatabase
   build: .
   ports:
     - "5432:5432"
