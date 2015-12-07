@@ -1,4 +1,4 @@
-\c helpnumber
+\c helphone
 
 INSERT INTO languages VALUES ('aa');
 INSERT INTO languages VALUES ('ab');

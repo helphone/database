@@ -1,4 +1,4 @@
-\c helpnumber
+\c helphone
 
 INSERT INTO countries VALUES ('AD');
 INSERT INTO countries VALUES ('AE');

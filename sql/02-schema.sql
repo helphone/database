@@ -1,4 +1,4 @@
-\c helpnumber
+\c helphone
 
 CREATE TABLE countries (
   code CHAR(2) CONSTRAINT PK_countries PRIMARY KEY -- ISO 3166-1 alpha-2

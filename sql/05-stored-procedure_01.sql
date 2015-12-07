@@ -1,4 +1,4 @@
-\c helpnumber
+\c helphone
 
 CREATE OR REPLACE FUNCTION numbers_by_language(
   input_language_code VARCHAR
